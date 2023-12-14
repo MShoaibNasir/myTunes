@@ -1,0 +1,241 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul li {
+    list-style: none;
+}
+
+.top_header nav ul {
+    display: flex;
+    gap: 17px;
+    margin: 0;
+    align-items: center;
+}
+
+.top_header nav ul li a {
+    color: #fff;
+    font-size: 2.2vh;
+}
+
+.top_header .logo h4 {
+    margin: 0;
+    padding: 0;
+    color: #fff;
+}
+
+header .top_header {
+    height: 10vh;
+    background: #270082;
+    display: flex;
+    align-items: center;
+}
+
+nav i {
+    color: #ffff;
+}
+
+nav .fa-bars {
+    margin: 0;
+    padding: 0;
+}
+
+nav .fa-bars {
+    display: none;
+}
+
+/* hero styling start */
+.hero {
+    width: 100%;
+    height: 90vh;
+    background: url('./images/Frame.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    flex-direction: column;
+    gap: 4vh;
+}
+
+.ham_burger_cut {
+    display: none;
+    color: #fff;
+    font-size: 4vh;
+    padding: 0;
+    margin: 0;
+}
+
+.hero h3 {
+    color: #fff;
+    margin: 0;
+    font-weight: 700;
+    font-size: 7vh;
+}
+
+.hero h5 {
+    color: #fff;
+    margin: 0;
+    text-align: center;
+}
+
+.hero p {
+    color: #fff;
+    margin: 0;
+    width: 50%;
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+/* music css start */
+.music {
+    background: #281154;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 2vh;
+    padding: 7vh 0vh 0vh 0vh;
+    position: relative;
+    /* height: 87vh; */
+}
+
+.music span {
+    color: #fff;
+    font-size: 3vh;
+    display: inline-block;
+}
+
+.music p {
+    color: #fff;
+    margin: 0;
+    text-align: center;
+    width: 50%;
+}
+
+
+
+
+.music i {
+    color: #fff;
+    display: inline;
+    font-size: 5vh;
+}
+
+.music_heading {
+    display: flex;
+    gap: 20px;
+}
+
+.music h3 {
+    color: #ffff;
+    margin: 0;
+    padding: 0;
+}
+
+.primary_btn {
+    background-color: #DC0000;
+    color: #FFFFFF;
+    padding: 1.9vh 3vh;
+    text-transform: capitalize;
+}
+
+.music_img {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: 9vh;
+}
+
+/* hero styling end */
+@media screen and (max-width: 600px) {
+
+    .top_header nav ul li {
+        display: none;
+    }
+
+    nav .fa-bars {
+        display: block;
+    }
+
+    .logo {
+        display: flex;
+        justify-content: center;
+    }
+
+    .top_header .logo h4 {
+        font-size: 3.8vh;
+    }
+
+    i.fa-solid.fa-bars {
+        font-size: 4vh;
+    }
+
+    .top_header nav ul {
+        flex-direction: column;
+    }
+
+    header .top_header {
+        height: 18vh;
+        align-items: flex-start;
+        padding-top: 4vh;
+    }
+
+    header .top_header .col-lg-6.d-flex.justify-content-end.col-sm-12 {
+        justify-content: center !important;
+        margin-top: 2vh;
+    }
+
+    nav {
+        display: flex !important;
+        flex-direction: column-reverse;
+        align-items: center;
+        gap: 4vh;
+    }
+
+    nav ul {
+        margin: 0;
+        padding: 0;
+    }
+
+    .fourty_height {
+        height: 40vh;
+    }
+
+    .hero p {
+        color: #fff;
+        margin: 0;
+        width: 80%;
+        text-align: center;
+    }
+
+    .hero {
+        justify-content: flex-start;
+        padding-top: 9vh;
+    }
+
+    .music p {
+        width: 90%;
+    }
+
+    .music {
+        padding: 4vh 0vh;
+
+    }
+
+}
