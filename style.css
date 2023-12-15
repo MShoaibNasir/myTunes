@@ -105,13 +105,13 @@ nav .fa-bars {
 .music {
     background: #281154;
     display: flex;
-    justify-content: center;
+    /* justify-content: center; */
     align-items: center;
     flex-direction: column;
     gap: 2vh;
-    padding: 7vh 0vh 0vh 0vh;
-    position: relative;
-    /* height: 87vh; */
+    padding: 17vh 0vh 0vh 0vh;
+    /* position: relative; */
+    height: 120vh;
 }
 
 .music span {
@@ -158,8 +158,14 @@ nav .fa-bars {
     width: 100%;
     display: flex;
     justify-content: center;
+    position: absolute;
+    bottom: 12vh;
+}
+.parent_music {
+    height: 194vh;
+    background: #ffffff;
+    width: 100%;
     position: relative;
-    top: 9vh;
 }
 
 /* hero styling end */
